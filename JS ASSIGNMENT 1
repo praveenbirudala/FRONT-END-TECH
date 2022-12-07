@@ -1,0 +1,21 @@
+let num1 =22
+let num2 = 33
+let num3 = 44
+let result = num1+num2+num3
+let sum = num1+num2
+let sub = num3 - num2
+let mul = num2*num3
+let div = num2/num3
+console.log("THE SUM OF NUM1 AND NUM2 IS="+sum)
+console.log("THE SUBTRACTION OF NUM3 AND NUM2 IS="+sub)
+console.log("THE MULTIPLICATION OF NUM2 AND NUM3 IS="+mul)
+console.log("THE DIVISION OF NUM2 AND NUM3 IS="+div)
+
+if (result>20){
+  console.log("The result is greater than 20="+num1+num2)
+}
+else (result<20)
+{ 
+  console.log("The result is less than 20="+num1/num2)
+  console.log("IF the result is decimal,then lesser absolute value is considered="+Math.floor(num1/num2))
+  console.log("IF the result is decimal,then greater absolute value is considered="+Math.ceil(num1/num2))
