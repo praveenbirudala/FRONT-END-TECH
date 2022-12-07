@@ -1,0 +1,10 @@
+let a={
+Name:'B.PRAVEEN',
+  CLASS: 'PHD',
+  University:'Maryland',
+  arr:[657,9765,8967,9383,746],
+  PRV:function() {
+  console.log(this.arr)
+  }  
+}
+a.PRV()
