@@ -1,0 +1,11 @@
+let num1 =125
+let num2 =80
+let result = num1 - num2
+if(result<0){
+  console.log("Iam in IF")
+  console.log(result*-1)
+} else{
+  console.log("Iam in ELSE")
+  console.log(result)
+  
+}
