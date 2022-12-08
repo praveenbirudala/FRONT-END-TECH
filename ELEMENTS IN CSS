@@ -1,0 +1,10 @@
+* -> It will effect all the elements in a HTML page.
+element.selector -> Ut will effectall the elements of the same type
+#id -> It will effects only the selected element
+.class->it effects all in a particular class
+parent children -> all children of the same parents are selected
+element, element -> all the elements which are connev=cted through ","  are effected with the same style
+parent>children->style is given to the immediat children of the parent prescribed
+element~ element -> all the elements are effected except the first element
+element+element ->immediate sibling will be effected
+element.class ->specific class of the particular element is effected`
