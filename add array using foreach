@@ -1,0 +1,9 @@
+function sumofarray(sumarray){
+  let sum=0;
+  sumarray.forEach(item=>{
+    sum+=item;
+  })
+  console.log(sum)
+  return  sum;
+}
+sumofarray([64,84949,9494875,7836364,283746]);
